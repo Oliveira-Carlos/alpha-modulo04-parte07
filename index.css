@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00ffff40;
+    font-family: monospace;
+    background-image: url(./assets/print-circulo-cromatico.svg);
+    background-repeat: no-repeat;
+    background-position: 400px 80px;
+    background-size: 50vw;
+}
+#title1{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px 0 20px 20px;
+}
+#section1{
+    font-size: 20px;
+    display: block;
+    margin: 10px 0 0 20px;
+    float: left;
+}
+#p1{
+    color: #ff00ff;
+}
+#p2{
+    color: #ff00ff60;
+}
+#p3{
+    color: rgb(0, 0, 177);
+}
+#p4{
+    color: rgba(0, 0, 177, 0.5);
+}
+#p5{
+    color: hsl(130,100%,50%);
+}
+#p6{
+    color: hsla(130, 100%, 50%, 0.5) ;
+}
+#p7{
+    color: red;
+}
+#p8{
+    color: none;
+}
